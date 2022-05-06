@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+  * header {
+    background-color: gray; }
+    * header nav {
+      height: 70px;
+      display: flex;
+      justify-content: flex-end; }
+      * header nav p {
+        margin-right: auto;
+        color: orange;
+        font-size: 50px;
+        padding-left: 20px; }
+        * header nav p:hover {
+          color: white; }
+      * header nav li {
+        padding: 20px;
+        display: inline-block; }
+      * header nav a {
+        text-decoration: none;
+        margin: 20px;
+        font-size: 20px;
+        color: orange; }
+        * header nav a:hover {
+          color: white; }

@@ -1,0 +1,38 @@
+$color: orange; 
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    header {
+        background-color: gray;
+        nav {
+            height: 70px;
+            display: flex;
+            justify-content: flex-end;
+            p {
+                margin-right: auto;
+                color: $color;
+                font-size: 50px;
+                padding-left: 20px;
+                &:hover {
+                    color: white;
+                }
+            }
+            li {
+                padding: 20px;
+                display: inline-block;
+            }
+            a {
+                text-decoration: none;
+                margin: 20px;
+                font-size: 20px;
+                color: $color;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+        
+}
